@@ -31,7 +31,6 @@ public class PersonResource {
             @FormParam("phoneNumber") String phoneNumber
     ) {
         personRepository.add(firstName, lastName, email, phoneNumber);
-
         logger.info("added new person");
 
         return Response.ok().build();

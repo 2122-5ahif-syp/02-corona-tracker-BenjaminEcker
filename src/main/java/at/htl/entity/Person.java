@@ -19,18 +19,18 @@ public class Person {
 
     private String email;
 
-    private String telephoneNo;
+    private String phoneNumber;
 
     private Instant timestamp;
 
     public Person() {
     }
 
-    public Person(String firstName, String lastName, String email, String telephoneNo, Instant timestamp) {
+    public Person(String firstName, String lastName, String email, String phoneNumber, Instant timestamp) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
-        this.telephoneNo = telephoneNo;
+        this.phoneNumber = phoneNumber;
         this.timestamp = timestamp;
     }
 
@@ -41,7 +41,7 @@ public class Person {
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", email='" + email + '\'' +
-                ", telephoneNo='" + telephoneNo + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
                 ", timestamp=" + timestamp +
                 '}';
     }
